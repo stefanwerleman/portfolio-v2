@@ -1,7 +1,5 @@
 .App {
 	background-color: #191c2a;
-	/* background-image: url(./mountains.jpg); */
-	min-height: 100vh;
 	width: inherit;
 	display: flex;
 	flex-direction: column;

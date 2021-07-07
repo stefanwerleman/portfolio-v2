@@ -1,6 +1,19 @@
 .Home {
-	background-image: url(./mountains.jpg);
+	background-image: url(./mountains.png);
 	opacity: 0.3;
 	background-size: cover;
 	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+.FrontHeader {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
+/* 
+@media (max-width: 891px) {
+    .Home
+} */
