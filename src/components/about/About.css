@@ -1,0 +1,95 @@
+.About {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.AboutBody {
+	width: 70%;
+	height: 100%;
+	display: inherit;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.AboutImage {
+	height: auto;
+	width: 350px;
+	border-radius: 10px;
+	margin: 0px 40px 0px 0px;
+	box-shadow: 4px 4px 1px #747c92;
+}
+
+.AboutDescription {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.SectionBody {
+	word-wrap: break-word;
+	color: #747c92;
+	line-height: 1.5em;
+}
+
+.ContactMeButton {
+	font-size: 1.1em;
+	color: #ed5565;
+	border-radius: 10px;
+	padding: 15px 25px 15px 25px;
+}
+
+@media (max-width: 1076px) {
+	.AboutBody {
+		width: 90%;
+	}
+}
+
+@media (max-width: 837px) {
+	.AboutBody {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.AboutImage {
+		margin: 0px 0px 17px 0px;
+		width: 300px;
+	}
+
+	.AboutDescription {
+		display: inherit;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.SectionText {
+		display: inherit;
+		flex-direction: inherit;
+		align-items: center;
+	}
+}
+
+@media (max-width: 595px) {
+	.AboutImage {
+		width: 250px;
+	}
+}
+
+@media (max-width: 441px) {
+	.AboutImage {
+		width: 238px;
+	}
+}
+
+@media (max-width: 404px) {
+	.About {
+		justify-content: space-evenly;
+	}
+
+	.ContactMeButton {
+		padding: 8px 18px 8px 18px;
+	}
+}

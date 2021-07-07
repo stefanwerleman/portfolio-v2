@@ -7,12 +7,17 @@
 	overflow: auto;
 }
 
+.Home,
+.About {
+	min-height: 100vh;
+}
+
 ::-webkit-scrollbar {
 	width: 2px;
 }
 
 ::-webkit-scrollbar-track {
-	background-color: transparent;
+	background-color: #747c92;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -22,4 +27,64 @@
 
 a {
 	text-decoration: none;
+}
+
+.Bookmark {
+	height: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-self: flex-end;
+	font-size: 2em;
+	color: #747c92;
+}
+
+.Bookmark hr {
+	width: 50px;
+	border-color: #747c92;
+}
+
+.SectionHeader {
+	color: #f4f4f6;
+	font-size: 3em;
+	font-weight: 600;
+	text-decoration: underline #ed5565;
+	margin: 0px;
+}
+
+button {
+	background-color: transparent;
+	border: 2px solid #ed5565;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.ContactMeButton:hover,
+.ResumeButton:hover {
+	background-color: #ed5565;
+	color: #191c2a;
+	transition: 0.4s;
+}
+
+@media (max-width: 595px) {
+	.SectionHeader {
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 460px) {
+	.SectionHeader {
+		font-size: 2em;
+	}
+
+	.Bookmark {
+		font-size: 1.4em;
+	}
+
+	.Bookmark hr {
+		width: 25px;
+		border-color: #747c92;
+	}
 }

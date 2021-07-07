@@ -7,7 +7,7 @@ function Home() {
 	return (
 		<div className='Home'>
 			<div className='FrontHeader'>
-				<img src={Img} alt='self_image' />
+				<img className='FrontImage' src={Img} alt='self_image' />
 				<div className='FrontBody'>
 					<p className='HeaderName'>Stefan Werleman</p>
 					<p className='SubName'>Full Stack Developer</p>
