@@ -1,0 +1,107 @@
+.Navigation {
+	background-color: transparent;
+	display: inherit;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 17px 17px 12px 17px;
+}
+
+.Menu {
+	margin: 0px 0px 0px 40px;
+	width: 570px;
+}
+
+.MobileMenu {
+	display: none;
+}
+
+.NavHeader,
+#menu-icon {
+	color: #747c92;
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+#menu-icon {
+	font-size: 2em;
+}
+
+.NavList {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.NavLink {
+	cursor: pointer;
+	background-color: transparent;
+	border: 0px;
+	font-weight: 600;
+	font-size: 0.93em;
+	color: #747c92;
+}
+
+.NavLink:hover {
+	color: #ed5565;
+	transition: 0.3s;
+}
+
+.NavLink:focus {
+	color: #ea3446;
+}
+
+.ResumeButton {
+	background-color: transparent;
+	border: 1px solid #ed5565;
+	color: #ed5565;
+	border-radius: 10px;
+	padding: 10px 15px 10px 15px;
+}
+
+.ResumeButton p {
+	margin: 0px;
+}
+
+.ResumeButton:hover {
+	background-color: #ed5565;
+	color: #191c2a;
+	transition: 0.4s;
+}
+
+@media (max-width: 663px) {
+	.MobileMenu {
+		display: unset;
+	}
+
+	.MobileMenu:hover .NavList {
+		display: inherit;
+	}
+
+	.NavList {
+		display: none;
+		position: absolute;
+		top: 59px;
+		right: 0px;
+		width: 100%;
+		background-color: #191c2a;
+		flex-direction: column;
+	}
+
+	.NavLink {
+		width: 100%;
+		background-color: transparent;
+		border: 0px;
+		font-weight: 600;
+		font-size: 0.9em;
+		color: #747c92;
+		letter-spacing: 0.2em;
+	}
+
+	.NavLink:active {
+		background-color: #747c92;
+		transition: 0.4s;
+	}
+}
