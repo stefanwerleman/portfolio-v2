@@ -118,4 +118,8 @@
 		background-color: #747c92;
 		transition: 0.4s;
 	}
+
+	a {
+		width: 100%;
+	}
 }
