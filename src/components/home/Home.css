@@ -1,19 +1,97 @@
 .Home {
-	background-image: url(./mountains.png);
-	opacity: 0.3;
-	background-size: cover;
+	position: relative;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 0;
+}
+
+.Home::before {
+	background-image: url(./mountains.png);
+	opacity: 0.25;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	content: '';
+	position: absolute;
 }
 
 .FrontHeader {
-	background-color: red;
-	height: 100px;
-	width: 100px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
-/* 
-@media (max-width: 891px) {
-    .Home
-} */
+
+.FrontBody {
+	display: inherit;
+	flex-direction: inherit;
+	align-items: inherit;
+}
+
+.FrontBody p {
+	margin: 0px;
+}
+
+.HeaderName {
+	font-weight: 600;
+	font-size: 4em;
+	color: #ed5565;
+}
+
+.SubName {
+	font-size: 2em;
+	color: #ffffff;
+}
+
+img {
+	height: auto;
+	width: 247px;
+	border-radius: 26px;
+}
+
+@media (max-width: 519px) {
+	img {
+		height: auto;
+		width: 215px;
+		border-radius: 26px;
+	}
+
+	.HeaderName {
+		font-weight: 600;
+		font-size: 3em;
+		color: #ed5565;
+	}
+
+	.SubName {
+		font-size: 1.8em;
+		color: #ffffff;
+	}
+}
+
+@media (max-width: 425px) {
+	.Home::before {
+		background-image: url(./mountains_mobile.jpg);
+	}
+
+	img {
+		height: auto;
+		width: 195px;
+		border-radius: 26px;
+	}
+
+	.HeaderName {
+		font-weight: 600;
+		font-size: 2.2em;
+		color: #ed5565;
+	}
+
+	.SubName {
+		font-size: 1.2em;
+		color: #ffffff;
+	}
+}
