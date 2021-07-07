@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Navigation from './components/navigation/Navigation';
 import Home from './components/home/Home';
 import About from './components/about/About';
+import Projects from './components/projects/Projects';
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Navigation />
 				<Home />
 				<About />
+				<Projects />
 			</BrowserRouter>
 		</div>
 	);
