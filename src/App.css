@@ -1,7 +1,7 @@
 .App {
 	background-color: #191c2a;
 	/* background-image: url(./mountains.jpg); */
-	height: inherit;
+	min-height: 100vh;
 	width: inherit;
 	display: flex;
 	flex-direction: column;
@@ -20,4 +20,8 @@
 ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	background-color: #ed5565;
+}
+
+a {
+	text-decoration: none;
 }

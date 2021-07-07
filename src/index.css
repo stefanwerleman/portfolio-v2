@@ -8,5 +8,5 @@ body {
 }
 
 #root {
-	height: inherit;
+	min-width: 100vh;
 }
