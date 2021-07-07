@@ -1,5 +1,6 @@
 .App {
 	background-color: #191c2a;
+	/* background-image: url(./mountains.jpg); */
 	height: inherit;
 	width: inherit;
 	display: flex;
