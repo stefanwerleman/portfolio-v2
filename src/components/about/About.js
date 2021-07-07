@@ -14,7 +14,7 @@ function About() {
 				<hr />
 			</div>
 			<div className='AboutBody'>
-				<img className='AboutImage' src={Img} />
+				<img className='AboutImage' src={Img} alt='profile-pic' />
 				<div className='AboutDescription'>
 					<div className='SectionText'>
 						<p className='SectionHeader'>About Me</p>
