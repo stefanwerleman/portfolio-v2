@@ -4,6 +4,7 @@ import React from 'react';
 // Router
 import { Link } from 'react-router-dom';
 
+// Assets
 import Img from './profile-pic.png';
 
 function About() {

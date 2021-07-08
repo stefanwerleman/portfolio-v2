@@ -4,8 +4,9 @@ import { React } from 'react';
 // Router
 import { Link } from 'react-router-dom';
 
-// Icons
+// Assets
 import { HiMenu } from 'react-icons/hi';
+import Resume from './swresume.pdf';
 
 function Navigation() {
 	const getNavList = () => {
@@ -41,9 +42,11 @@ function Navigation() {
 						<p>CONTACT</p>
 					</button>
 				</Link>
-				<button className='ResumeButton'>
-					<p>RESUME</p>
-				</button>
+				<a href={Resume} target='_blank' rel='noreferrer'>
+					<button className='ResumeButton'>
+						<p>RESUME</p>
+					</button>
+				</a>
 			</div>
 		);
 	};

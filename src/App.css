@@ -7,9 +7,18 @@
 	overflow: auto;
 }
 
+.About,
+.Education {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 .Home,
 .About,
-.Projects {
+.Contact,
+.Education {
 	min-height: 100vh;
 }
 

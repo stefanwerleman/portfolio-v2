@@ -1,0 +1,82 @@
+.Education {
+	background-color: #1f2233;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.EducationBody {
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.EducationBody hr {
+	width: 75%;
+	border-color: #747c92;
+}
+
+.School {
+	display: flex;
+	flex-direction: row;
+	margin: 30px 0px 20px 0px;
+	width: 100%;
+}
+
+.School img {
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+	margin: 0px 40px 0px 0px;
+}
+
+.SchoolName {
+	font-size: 1.4em;
+}
+
+.SchoolName,
+.Description {
+	color: #747c92;
+	font-weight: 600;
+}
+
+.SchoolBody {
+	align-self: flex-start;
+}
+
+.SchoolBody p {
+	margin: 0px;
+	font-weight: 600;
+}
+
+.SchoolInfo {
+	margin: 18px 0px 18px 0px;
+}
+
+.SchoolInfo p {
+	color: #ed5565;
+	margin: 0px 0px 4px 0px;
+}
+
+@media (max-width: 768px) {
+	.Education {
+		justify-content: space-evenly;
+	}
+
+	.EducationBody {
+		width: 90%;
+	}
+
+	.School {
+		flex-direction: column;
+		align-items: center;
+		font-size: 0.95em;
+	}
+
+	.SchoolBody {
+		margin: 20px 0px 0px 0px;
+	}
+}
