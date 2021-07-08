@@ -1,0 +1,88 @@
+import {
+	SiCodio,
+	SiCplusplus,
+	SiJava,
+	SiJavascript,
+	SiPython,
+	SiHtml5,
+	SiCss3,
+	SiNodeDotJs,
+	SiReact,
+	SiLinux,
+	SiJest,
+	SiMongodb,
+	SiMocha,
+	SiWindows,
+	SiRuby,
+	SiTypescript,
+	SiMysql,
+	SiDjango,
+	SiElectron,
+	SiFirebase,
+	SiGit,
+	SiGithub,
+} from 'react-icons/si';
+
+import { VscJson } from 'react-icons/vsc';
+
+export const icons = {
+	c: <SiCodio />,
+	'c++': <SiCplusplus />,
+	java: <SiJava />,
+	javasript: <SiJavascript />,
+	html5: <SiHtml5 />,
+	css3: <SiCss3 />,
+	python: <SiPython />,
+	sql: <SiMysql />,
+	typescript: <SiTypescript />,
+	ruby: <SiRuby />,
+	reactjs: <SiReact />,
+	nodejs: <SiNodeDotJs />,
+	mongodb: <SiMongodb />,
+	'react native': <SiReact />,
+	mocha: <SiMocha />,
+	jest: <SiJest />,
+	django: <SiDjango />,
+	mysql: <SiMysql />,
+	electronjs: <SiElectron />,
+	linux: <SiLinux />,
+	git: <SiGit />,
+	github: <SiGithub />,
+	json: <VscJson />,
+	firebase: <SiFirebase />,
+	windows: <SiWindows />,
+};
+
+export const langauges = [
+	{ name: 'C', years: 4, max: 4 },
+	{ name: 'Java', years: 4, max: 4 },
+	{ name: 'C++', years: 3, max: 4 },
+	{ name: 'JavaScript', years: 3, max: 4 },
+	{ name: 'HTML5', years: 3, max: 4 },
+	{ name: 'CSS3', years: 3, max: 4 },
+	{ name: 'Python', years: 2, max: 4 },
+	{ name: 'SQL', years: 0, max: 4 },
+	{ name: 'TypeScript', years: 0, max: 4 },
+	{ name: 'Ruby', years: 1, max: 4 },
+];
+
+export const frameworks = [
+	{ name: 'ReactJS', years: 3, max: 3 },
+	{ name: 'NodeJS', years: 3, max: 3 },
+	{ name: 'MongoDB', years: 2, max: 3 },
+	{ name: 'React Native', years: 2, max: 3 },
+	{ name: 'Mocha', years: 1, max: 3 },
+	{ name: 'Jest', years: 1, max: 3 },
+	{ name: 'Django', years: 1, max: 3 },
+	{ name: 'MySQL', years: 0, max: 3 },
+	{ name: 'ElectronJS', years: 0, max: 3 },
+];
+
+export const technologies = [
+	{ name: 'Linux', years: 4, max: 6 },
+	{ name: 'Git', years: 4, max: 6 },
+	{ name: 'GitHub', years: 4, max: 6 },
+	{ name: 'JSON', years: 3, max: 6 },
+	{ name: 'Firebase', years: 1, max: 6 },
+	{ name: 'Windows', years: 6, max: 6 },
+];

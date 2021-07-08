@@ -1,0 +1,36 @@
+.Skills {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.SkillsBody {
+	width: 70%;
+}
+
+.Progress {
+	appearance: none;
+	width: 80%;
+	height: 20px;
+}
+
+.Progress::-webkit-progress-bar {
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+.Progress::-webkit-progress-value {
+	border-radius: 10px;
+	background-color: #8d91c7;
+}
+
+.Progress::before {
+	color: #191c2a;
+	content: attr(label);
+	font-size: 1em;
+	position: absolute;
+	left: 1;
+	margin: 2px 0px 0px 30%;
+	font-weight: 700;
+}

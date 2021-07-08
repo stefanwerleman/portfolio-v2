@@ -17,8 +17,9 @@
 
 .Home,
 .About,
-.Contact,
-.Education {
+.Skills,
+.Education,
+.Contact {
 	min-height: 100vh;
 }
 
