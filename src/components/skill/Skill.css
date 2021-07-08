@@ -1,0 +1,71 @@
+.Skill {
+	margin: 0px 95px 50px 0px;
+}
+
+.Card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+	overflow: hidden;
+}
+
+.Percent svg {
+	width: 150px;
+	height: 150px;
+}
+
+.Percent svg circle {
+	width: 100%;
+	stroke: transparent;
+	height: 100%;
+	fill: none;
+	stroke-width: 10px;
+	transform: translate(5px, 5px);
+}
+
+.Percent svg circle:nth-child(2) {
+	stroke-dasharray: 440;
+	stroke-dashoffset: 440;
+}
+
+.Card:nth-child(1) svg circle:nth-child(2) {
+	stroke-dashoffset: calc(440 - (440 * var(--percent)) / 100);
+	stroke: var(--stroke);
+}
+
+.Content {
+	display: inherit;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	margin: 0px 0px 45px 0px;
+}
+
+.SkillIcon {
+	font-size: 2em;
+}
+
+.Content p {
+	text-align: center;
+	margin: 0px 0px 2px 0px;
+}
+
+.ContentText {
+	color: #747c92;
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+@media (max-width: 1050px) {
+	.Skill {
+		margin: 0px 60px 60px 0px;
+	}
+}
+
+@media (max-width: 900px) {
+	.Skill {
+		margin: 0px 45px 45px 0px;
+	}
+}

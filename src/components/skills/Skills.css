@@ -3,34 +3,46 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding: 150px 0px 150px 0px;
 }
 
 .SkillsBody {
 	width: 70%;
+	display: inherit;
+	flex-direction: inherit;
+	justify-content: inherit;
+	align-items: inherit;
 }
 
-.Progress {
-	appearance: none;
-	width: 80%;
-	height: 20px;
+.SubSection {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
-.Progress::-webkit-progress-bar {
-	border-radius: 10px;
-	background-color: #ffffff;
+.SubSectionHeader {
+	color: #ed5565;
+	font-weight: 600;
+	font-size: 2em;
 }
 
-.Progress::-webkit-progress-value {
-	border-radius: 10px;
-	background-color: #8d91c7;
+.SkillsContainer {
+	width: 100%;
+	display: inherit;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 40px 0px 0px 0px;
 }
 
-.Progress::before {
-	color: #191c2a;
-	content: attr(label);
-	font-size: 1em;
-	position: absolute;
-	left: 1;
-	margin: 2px 0px 0px 30%;
-	font-weight: 700;
+@media (max-width: 1050px) {
+	.SubSection {
+		/* align-items: center; */
+	}
+
+	.SkillsContainer {
+		justify-content: center;
+	}
 }
