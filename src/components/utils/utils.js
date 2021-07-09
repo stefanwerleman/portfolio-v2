@@ -109,14 +109,160 @@ export const technologies = [
 ];
 
 export const websites = [
-	{name: 'Facebook Chat', url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},
+	{
+		name: 'AlgoVisionKnights',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['javascript', 'nodejs', 'reactjs', 'css3', 'jest'],
+		image: null,
+	},
+	{
+		name: 'Plagiarism Detector',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['python', 'django', 'html5', 'css3'],
+		image: null,
+	},
+	{
+		name: 'Portfolio Version 2',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['javascript', 'nodejs', 'css3', 'jest'],
+		image: null,
+	},
+	{
+		name: 'Portfolio Version 1',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['javascript', 'nodejs', 'css3', 'jest'],
+		image: null,
+	},
+	{
+		name: 'Facebook Chat',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'],
+		image: null,
+	},
+	{
+		name: 'Document Drop Application',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['javascript', 'nodejs', 'reactjs', 'css3', 'jest'],
+		image: null,
+	},
 ];
 
-export const mobiles = [{name: 'All Things Books', url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},];
+export const mobiles = [
+	{
+		name: 'All Things Books',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['javascript', 'nodejs', 'react native', 'jest'],
+		image: null,
+	},
+	{
+		name: 'PakTrak',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['javascript', 'nodejs', 'sql', 'jest'],
+		image: null,
+	},
+];
 
-export const algorithms = [{name: 'SkipList', url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},];
+export const algorithms = [
+	{
+		name: 'SkipList',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['java'],
+		image: null,
+	},
+	{
+		name: 'Sneaky Knights',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['java', 'python'],
+		image: null,
+	},
+	{
+		name: 'Listy Strings',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['c', 'c++'],
+		image: null,
+	},
+	{
+		name: 'Constrained TopoSort',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['java'],
+		image: null,
+	},
+	{
+		name: 'Lonely Party Array',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['c', 'c++'],
+		image: null,
+	},
+	{
+		name: 'Kindred Spirits',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['c++'],
+		image: null,
+	},
+	{
+		name: 'SneakyRooks',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['c++'],
+		image: null,
+	},
+];
 
-export const desktop = [{name: 'ADV', url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},];
+export const desktop = [
+	{
+		name: 'AlgoVisionKnights',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['javascript', 'nodejs', 'electronjs', 'reactjs', 'jest'],
+		image: null,
+	},
+];
 
-export const others = [{name: "Cloudflare's Workers Full Stack App", url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},];
-
+export const others = [
+	{
+		name: "Cloudflare's Workers Full Stack App",
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['javascript', 'nodejs'],
+		image: null,
+	},
+	{
+		name: 'Trie Class',
+		url: null,
+		github: 'https://github.com/stefanwerleman/facebook-clone',
+		description: null,
+		tools: ['ruby'],
+		image: null,
+	},
+];
