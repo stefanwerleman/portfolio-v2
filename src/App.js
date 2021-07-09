@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Navigation from './components/navigation/Navigation';
 import Home from './components/home/Home';
 import About from './components/about/About';
-// import Projects from './components/projects/Projects';
+import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
 import Education from './components/education/Education';
 import Contact from './components/contact/Contact';
@@ -19,6 +19,7 @@ function App() {
 				<Navigation />
 				<Home />
 				<About />
+				<Projects />
 				<Skills />
 				<Education />
 				<Contact />
