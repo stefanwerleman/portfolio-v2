@@ -12,12 +12,13 @@
 	text-align: center;
 	border: 2px solid var(--stroke);
 	border-radius: 10px;
-	position: absolute;
+	position: relative;
 	z-index: 1;
 	visibility: hidden;
-	margin: 0px 0px 205px 2px;
+	margin: 0px;
 	opacity: 0;
 	transition: opacity 0.4s;
+	top: 0px;
 }
 
 .Skill:hover .ToolTip {
@@ -32,6 +33,11 @@
 	align-items: center;
 	flex-flow: column wrap;
 	overflow: hidden;
+}
+
+.Percent {
+	position: relative;
+	top: -29px;
 }
 
 .Percent svg {
@@ -49,14 +55,14 @@
 }
 
 @keyframes startTransition {
-	from {
-		stroke-dashoffset: 440;
+	0% {
+		stroke-dashoffset: 440px;
 	}
 }
 
 .Percent svg circle:nth-child(2) {
-	stroke-dasharray: 440;
-	stroke-dashoffset: 440;
+	stroke-dasharray: 440px;
+	stroke-dashoffset: 440px;
 }
 
 .Card:nth-child(1) svg circle:nth-child(2) {
@@ -70,8 +76,9 @@
 	display: inherit;
 	flex-direction: column;
 	align-items: center;
-	position: absolute;
-	margin: 0px 0px 45px 0px;
+	position: relative;
+	margin: 0px;
+	top: 39px;
 }
 
 .SkillIcon {
