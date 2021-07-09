@@ -107,3 +107,16 @@ export const technologies = [
 	{ name: 'JSON', years: 3, color: '#f7e018' },
 	{ name: 'Firebase', years: 1, color: '#f7a213' },
 ];
+
+export const websites = [
+	{name: 'Facebook Chat', url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},
+];
+
+export const mobiles = [{name: 'All Things Books', url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},];
+
+export const algorithms = [{name: 'SkipList', url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},];
+
+export const desktop = [{name: 'ADV', url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},];
+
+export const others = [{name: "Cloudflare's Workers Full Stack App", url: null, github: 'https://github.com/stefanwerleman/facebook-clone', description: null, tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'], image: null},];
+
