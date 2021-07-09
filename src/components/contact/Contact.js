@@ -18,7 +18,10 @@ function Contact() {
 					<a href='mailto:stefanfwerleman@gmail.com' rel='noreferrer'>
 						<button className='LinkButton'>
 							<MdEmail className='ContactIcon' />
-							<p>Email</p>
+							<p className='Label'>Email</p>
+							<p className='ContactLink'>
+								stefanfwerleman@gmail.com
+							</p>
 						</button>
 					</a>
 					<a
@@ -27,7 +30,10 @@ function Contact() {
 						rel='noreferrer'>
 						<button className='LinkButton'>
 							<SiLinkedin />
-							<p>LinkedIn</p>
+							<p className='Label'>LinkedIn</p>
+							<p className='ContactLink'>
+								linkedin.com/in/stefanwerleman
+							</p>
 						</button>
 					</a>
 					<a
@@ -36,7 +42,10 @@ function Contact() {
 						rel='noreferrer'>
 						<button className='LinkButton'>
 							<SiGithub />
-							<p>GitHub</p>
+							<p className='Label'>GitHub</p>
+							<p className='ContactLink'>
+								github.com/stefanwerleman
+							</p>
 						</button>
 					</a>
 				</div>

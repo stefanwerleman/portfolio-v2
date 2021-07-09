@@ -62,6 +62,18 @@
 	font-size: 1.2em;
 }
 
+.ContactLink {
+	display: none;
+}
+
+.LinkButton:hover .ContactLink {
+	display: unset;
+}
+
+.LinkButton:hover .Label {
+	display: none;
+}
+
 @media (max-width: 520px) {
 	.ContactLinks {
 		width: 400px;
