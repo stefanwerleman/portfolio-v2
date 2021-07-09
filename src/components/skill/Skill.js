@@ -11,6 +11,13 @@ function Skill({ name, years, max, icon, color }) {
 	return (
 		<div className='Skill'>
 			<div className='Card'>
+				<div
+					className='ToolTip'
+					style={{
+						'--stroke': color,
+					}}>
+					{name}
+				</div>
 				<div className='Content'>
 					<p>{icon}</p>
 				</div>
