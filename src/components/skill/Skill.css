@@ -48,12 +48,20 @@
 	transform: translate(5px, 5px);
 }
 
+@keyframes startTransition {
+	from {
+		stroke-dashoffset: 440;
+	}
+}
+
 .Percent svg circle:nth-child(2) {
 	stroke-dasharray: 440;
 	stroke-dashoffset: 440;
 }
 
 .Card:nth-child(1) svg circle:nth-child(2) {
+	animation: startTransition 2.5s;
+	transition: stroke-dashoffset linear;
 	stroke-dashoffset: calc(440 - (440 * var(--percent)) / 100);
 	stroke: var(--stroke);
 }

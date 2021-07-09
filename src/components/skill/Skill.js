@@ -1,6 +1,9 @@
 import './Skill.css';
 import React from 'react';
 
+// Assets
+import { useInView } from 'react-intersection-observer';
+
 function Skill({ name, years, max, icon, color }) {
 	const calcPercent = () => {
 		let yearTemp = years <= 0 ? 0.6 : years;
@@ -8,8 +11,13 @@ function Skill({ name, years, max, icon, color }) {
 		return Math.round((yearTemp / max) * 100);
 	};
 
+	const { ref, inView } = useInView({
+		threshold: 0,
+		triggerOnce: true,
+	});
+
 	return (
-		<div className='Skill'>
+		<div className='Skill' ref={ref}>
 			<div className='Card'>
 				<div
 					className='ToolTip'
@@ -30,6 +38,7 @@ function Skill({ name, years, max, icon, color }) {
 							style={{
 								'--stroke': color,
 								'--percent': calcPercent(),
+								animation: inView ? 'none' : 'none',
 							}}
 						/>
 						<circle
@@ -39,6 +48,9 @@ function Skill({ name, years, max, icon, color }) {
 							style={{
 								'--stroke': color,
 								'--percent': calcPercent(),
+								animation: inView
+									? 'startTransition 2.5s'
+									: 'none',
 							}}
 						/>
 						<text
