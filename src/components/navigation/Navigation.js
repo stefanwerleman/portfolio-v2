@@ -2,7 +2,7 @@ import './Navigation.css';
 import { React } from 'react';
 
 // Router
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 // Assets
 import { HiMenu } from 'react-icons/hi';
@@ -12,36 +12,36 @@ function Navigation() {
 	const getNavList = () => {
 		return (
 			<div className='NavList'>
-				<Link to='/about'>
+				<HashLink to='/#about' smooth>
 					<button className='NavLink'>
 						<p>01.</p>
 						<p>ABOUT ME</p>
 					</button>
-				</Link>
-				<Link to='/projects'>
+				</HashLink>
+				<HashLink to='/#projects' smooth>
 					<button className='NavLink'>
 						<p>02.</p>
 						<p>PROJECTS</p>
 					</button>
-				</Link>
-				<Link to='/skills'>
+				</HashLink>
+				<HashLink to='/#skills' smooth>
 					<button className='NavLink'>
 						<p>03.</p>
 						<p>SKILLS</p>
 					</button>
-				</Link>
-				<Link to='/education'>
+				</HashLink>
+				<HashLink to='/#education' smooth>
 					<button className='NavLink'>
 						<p>04.</p>
 						<p>EDUCATION</p>
 					</button>
-				</Link>
-				<Link to='/contact'>
-					<button className='NavLink'>
+				</HashLink>
+				<HashLink to='/#contact' smooth>
+					<button className='NavLink' smooth>
 						<p>05.</p>
 						<p>CONTACT</p>
 					</button>
-				</Link>
+				</HashLink>
 				<a href={Resume} target='_blank' rel='noreferrer'>
 					<button className='ResumeButton'>
 						<p>RESUME</p>
@@ -53,9 +53,9 @@ function Navigation() {
 
 	return (
 		<div className='Navigation'>
-			<Link to='/'>
+			<HashLink to='/#' smooth>
 				<span className='NavHeader'>Stefan</span>
-			</Link>
+			</HashLink>
 			<span className='Menu'>{getNavList()}</span>
 			<span className='MobileMenu'>
 				<HiMenu id='menu-icon' />

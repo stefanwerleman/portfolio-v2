@@ -6,7 +6,7 @@ import Img from './ucf-logo.png';
 
 function Education() {
 	return (
-		<div className='Education'>
+		<div className='Education' id='education'>
 			<div className='Bookmark'>
 				<p>04</p>
 				<hr />

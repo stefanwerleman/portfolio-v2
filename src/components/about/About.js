@@ -9,7 +9,7 @@ import Img from './profile-pic.png';
 
 function About() {
 	return (
-		<div className='About'>
+		<div className='About' id='about'>
 			<div className='Bookmark'>
 				<p>01</p>
 				<hr />

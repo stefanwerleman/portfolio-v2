@@ -97,7 +97,7 @@ function Skills() {
 	};
 
 	return (
-		<div className='Skills'>
+		<div className='Skills' id='skills'>
 			<div className='Bookmark'>
 				<p>03</p>
 				<hr />

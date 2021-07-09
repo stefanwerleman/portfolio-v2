@@ -7,7 +7,7 @@ import { SiLinkedin, SiGithub } from 'react-icons/si';
 
 function Contact() {
 	return (
-		<div className='Contact'>
+		<div className='Contact' id='contact'>
 			<div className='Bookmark'>
 				<p>05</p>
 				<hr />

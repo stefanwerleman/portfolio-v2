@@ -5,7 +5,7 @@ import Img from './self_image.png';
 
 function Home() {
 	return (
-		<div className='Home'>
+		<div className='Home' id='/#'>
 			<div className='FrontHeader'>
 				<img className='FrontImage' src={Img} alt='self_image' />
 				<div className='FrontBody'>
