@@ -82,6 +82,16 @@ button {
 	transition: 0.4s;
 }
 
+@media (max-width: 768px) {
+	.About {
+		padding: 85px 0px 85px 0px;
+	}
+
+	.Education {
+		padding: 85px 0px 85px 0px;
+	}
+}
+
 @media (max-width: 595px) {
 	.SectionHeader {
 		font-size: 2.5em;
