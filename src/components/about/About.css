@@ -34,6 +34,10 @@
 	font-weight: 700;
 }
 
+.SectionBody span {
+	color: #ed5565;
+}
+
 .ContactMeButton {
 	font-size: 1.1em;
 	color: #ed5565;

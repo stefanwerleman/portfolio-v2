@@ -55,7 +55,7 @@
 	transition: 0.3s;
 }
 
-.NavLink:focus {
+.NavList HashLink:focus {
 	color: #ea3446;
 }
 

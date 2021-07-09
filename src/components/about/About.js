@@ -2,7 +2,7 @@ import './About.css';
 import React from 'react';
 
 // Router
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 // Assets
 import Img from './profile-pic.png';
@@ -20,23 +20,19 @@ function About() {
 					<div className='SectionText'>
 						<p className='SectionHeader'>About Me</p>
 						<p className='SectionBody'>
-							Lorem Ipsum is simply dummy text of the printing and
-							typesetting industry. Lorem Ipsum has been the
-							industry's standard dummy text ever since the 1500s,
-							when an unknown printer took a galley of type and
-							scrambled it to make a type specimen book. It has
-							survived not only five centuries, but also the leap
-							into electronic typesetting, remaining essentially
-							unchanged. It was popularised in the 1960s with the
-							release of Letraset sheets containing Lorem Ipsum
-							passages, and more recently with desktop publishing
-							software like Aldus PageMaker including versions of
-							Lorem Ipsum.
+							Hi! My name is <span>Stefan Werleman</span> and I am
+							an incoming graduate student at the University of
+							Central Florida majoring in Computer Science. I am
+							currently seeking a Software Engineering entry-level
+							or internship position. I enjoy solving complex
+							problems and turning them into software that can
+							help others. I am always striving to stay on the
+							cutting-edge of technology to solve new problems.
 						</p>
 					</div>
-					<Link to='/contact'>
+					<HashLink to='/#contact' smooth>
 						<button className='ContactMeButton'>CONTACT ME</button>
-					</Link>
+					</HashLink>
 				</div>
 			</div>
 		</div>
