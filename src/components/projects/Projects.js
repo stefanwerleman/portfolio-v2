@@ -130,6 +130,10 @@ function Projects() {
 
 	return (
 		<div className='Projects' id='projects'>
+			<div className='Bookmark'>
+                                <p>02</p>
+                                <hr />
+                        </div>
 			<div className='ProjectsBody'>
 				<p className='SectionHeader'>Projects</p>
 				<div className='ProjectGroup'>

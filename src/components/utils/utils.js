@@ -23,6 +23,15 @@ import {
 	SiGithub,
 } from 'react-icons/si';
 
+import ADVweb from './images/adv-web.png'
+import ADVdesktop from './images/adv-desktop.png';
+import detector from './images/detector.png';
+import facebook from './images/facebook-chat.png';
+import paktrak from './images/paktrak.png';
+import portfoliov1 from './images/portfolio-v1.png';
+import portfoliov2 from './images/home.png';
+import allthingsbooks from './images/allthingsbooks.png';
+
 import { VscJson } from 'react-icons/vsc';
 
 export const icons = {
@@ -115,7 +124,7 @@ export const websites = [
 		github: 'https://github.com/stefanwerleman/facebook-clone',
 		description: null,
 		tools: ['javascript', 'nodejs', 'reactjs', 'css3', 'jest'],
-		image: null,
+		image: ADVweb,
 	},
 	{
 		name: 'Plagiarism Detector',
@@ -123,7 +132,7 @@ export const websites = [
 		github: 'https://github.com/stefanwerleman/facebook-clone',
 		description: null,
 		tools: ['python', 'django', 'html5', 'css3'],
-		image: null,
+		image: detector,
 	},
 	{
 		name: 'Portfolio Version 2',
@@ -131,7 +140,7 @@ export const websites = [
 		github: 'https://github.com/stefanwerleman/facebook-clone',
 		description: null,
 		tools: ['javascript', 'nodejs', 'css3', 'jest'],
-		image: null,
+		image: portfoliov2,
 	},
 	{
 		name: 'Portfolio Version 1',
@@ -139,7 +148,7 @@ export const websites = [
 		github: 'https://github.com/stefanwerleman/facebook-clone',
 		description: null,
 		tools: ['javascript', 'nodejs', 'css3', 'jest'],
-		image: null,
+		image: portfoliov1,
 	},
 	{
 		name: 'Facebook Chat',
@@ -147,7 +156,7 @@ export const websites = [
 		github: 'https://github.com/stefanwerleman/facebook-clone',
 		description: null,
 		tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'],
-		image: null,
+		image: facebook,
 	},
 	{
 		name: 'Document Drop Application',
@@ -166,7 +175,7 @@ export const mobiles = [
 		github: 'https://github.com/stefanwerleman/facebook-clone',
 		description: null,
 		tools: ['javascript', 'nodejs', 'react native', 'jest'],
-		image: null,
+		image: allthingsbooks,
 	},
 	{
 		name: 'PakTrak',
@@ -174,7 +183,7 @@ export const mobiles = [
 		github: 'https://github.com/stefanwerleman/facebook-clone',
 		description: null,
 		tools: ['javascript', 'nodejs', 'sql', 'jest'],
-		image: null,
+		image: paktrak,
 	},
 ];
 
@@ -244,7 +253,7 @@ export const desktop = [
 		github: 'https://github.com/stefanwerleman/facebook-clone',
 		description: null,
 		tools: ['javascript', 'nodejs', 'electronjs', 'reactjs', 'jest'],
-		image: null,
+		image: ADVdesktop,
 	},
 ];
 
