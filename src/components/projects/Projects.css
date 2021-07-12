@@ -12,6 +12,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	width: 80%;
 }
 
 .ProjectGroup {
@@ -54,4 +55,11 @@
 .ProjectGroup button:nth-child(5):focus {
 	background-color: #ed5565;
 	color: #191c2a;
+}
+
+.ProjectsContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }

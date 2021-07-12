@@ -22,8 +22,9 @@ import {
 	SiGit,
 	SiGithub,
 } from 'react-icons/si';
+import { VscJson } from 'react-icons/vsc';
 
-import ADVweb from './images/adv-web.png'
+import ADVweb from './images/adv-web.png';
 import ADVdesktop from './images/adv-desktop.png';
 import detector from './images/detector.png';
 import facebook from './images/facebook-chat.png';
@@ -31,8 +32,6 @@ import paktrak from './images/paktrak.png';
 import portfoliov1 from './images/portfolio-v1.png';
 import portfoliov2 from './images/home.png';
 import allthingsbooks from './images/allthingsbooks.png';
-
-import { VscJson } from 'react-icons/vsc';
 
 export const icons = {
 	c: <SiCodio className='SkillIcon' style={{ color: '#5c6bc0' }} />,
@@ -120,9 +119,9 @@ export const technologies = [
 export const websites = [
 	{
 		name: 'AlgoVisionKnights',
-		url: null,
+		url: 'https://algovisionknights.com',
 		github: 'https://github.com/stefanwerleman/facebook-clone',
-		description: null,
+		description: `e .z management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See my CV for more details.`,
 		tools: ['javascript', 'nodejs', 'reactjs', 'css3', 'jest'],
 		image: ADVweb,
 	},
@@ -130,7 +129,7 @@ export const websites = [
 		name: 'Plagiarism Detector',
 		url: null,
 		github: 'https://github.com/stefanwerleman/facebook-clone',
-		description: null,
+		description: `e .z management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See my CV for more details.`,
 		tools: ['python', 'django', 'html5', 'css3'],
 		image: detector,
 	},

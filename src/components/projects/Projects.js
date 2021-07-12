@@ -15,8 +15,10 @@ function Projects() {
 			<div className='SubSection'>
 				<p className='SubSectionHeader'>Websites</p>
 				<div className='ProjectsContainer'>
-					{websites.map((website) => (
+					{websites.map((website, i) => (
 						<Project
+							key={website.name}
+							id={i}
 							name={website.name}
 							url={website.url}
 							github={website.github}
@@ -35,8 +37,10 @@ function Projects() {
 			<div className='SubSection'>
 				<p className='SubSectionHeader'>Mobile Applications</p>
 				<div className='ProjectsContainer'>
-					{mobiles.map((mobile) => (
+					{mobiles.map((mobile, i) => (
 						<Project
+							key={mobile.name}
+							id={i}
 							name={mobile.name}
 							url={mobile.url}
 							github={mobile.github}
@@ -57,8 +61,10 @@ function Projects() {
 					Algorithms and Data Structures
 				</p>
 				<div className='ProjectsContainer'>
-					{algorithms.map((algorithm) => (
+					{algorithms.map((algorithm, i) => (
 						<Project
+							key={algorithm.name}
+							id={i}
 							name={algorithm.name}
 							url={algorithm.url}
 							github={algorithm.github}
@@ -77,8 +83,10 @@ function Projects() {
 			<div className='SubSection'>
 				<p className='SubSectionHeader'>Desktop Applications</p>
 				<div className='ProjectsContainer'>
-					{desktop.map((desktop) => (
+					{desktop.map((desktop, i) => (
 						<Project
+							key={desktop.name}
+							id={i}
 							name={desktop.name}
 							url={desktop.url}
 							github={desktop.github}
@@ -97,8 +105,10 @@ function Projects() {
 			<div className='SubSection'>
 				<p className='SubSectionHeader'>Other Projects</p>
 				<div className='ProjectsContainer'>
-					{others.map((other) => (
+					{others.map((other, i) => (
 						<Project
+							key={other.name}
+							id={i}
 							name={other.name}
 							url={other.url}
 							github={other.github}
