@@ -21,12 +21,24 @@ function Project({ id, name, url, github, description, tools, image }) {
 				<div className='ProjectHeading'>
 					<span className='ProjectName'>{name}</span>
 					<span className='ProjectLinks'>
-						<a id='github-link' href={github} target='_blank'>
-							<SiGithub />
-						</a>
-						<a id='url-link' href={url} target='_blank'>
-							<FiExternalLink />
-						</a>
+						{github !== null ? (
+							<a
+								id='github-link'
+								href={github}
+								target='_blank'
+								rel='noreferrer'>
+								<SiGithub />
+							</a>
+						) : null}
+						{url !== null ? (
+							<a
+								id='url-link'
+								href={url}
+								target='_blank'
+								rel='noreferrer'>
+								<FiExternalLink />
+							</a>
+						) : null}
 					</span>
 				</div>
 				<div className='ProjectDescription'>{description}</div>

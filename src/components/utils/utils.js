@@ -120,23 +120,23 @@ export const websites = [
 	{
 		name: 'AlgoVisionKnights',
 		url: 'https://algovisionknights.com',
-		github: 'https://github.com/stefanwerleman/facebook-clone',
-		description: `e .z management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See my CV for more details.`,
+		github: 'https://github.com/AlgoVisionKnights',
+		description: ``,
 		tools: ['javascript', 'nodejs', 'reactjs', 'css3', 'jest'],
 		image: ADVweb,
 	},
 	{
 		name: 'Plagiarism Detector',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
-		description: `e .z management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See During this time I took a temporary break from freelancing. Instead, I was an employee in medium-size tech companies. This gave me a lot of experience and hindsight on how a proper team collaboration, recruitment, and project management process should look like. See my CV for more details.`,
+		github: 'https://github.com/stefanwerleman/plagiarismdetector',
+		description: ``,
 		tools: ['python', 'django', 'html5', 'css3'],
 		image: detector,
 	},
 	{
 		name: 'Portfolio Version 2',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: 'https://github.com/stefanwerleman/portfolio-v2',
 		description: null,
 		tools: ['javascript', 'nodejs', 'css3', 'jest'],
 		image: portfoliov2,
@@ -144,7 +144,7 @@ export const websites = [
 	{
 		name: 'Portfolio Version 1',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: 'https://github.com/stefanwerleman/portfolio-v1',
 		description: null,
 		tools: ['javascript', 'nodejs', 'css3', 'jest'],
 		image: portfoliov1,
@@ -160,7 +160,7 @@ export const websites = [
 	{
 		name: 'Document Drop Application',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: 'https://github.com/chrisfeltner/over-my-dead-body',
 		description: null,
 		tools: ['javascript', 'nodejs', 'reactjs', 'css3', 'jest'],
 		image: null,
@@ -171,7 +171,7 @@ export const mobiles = [
 	{
 		name: 'All Things Books',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: 'https://github.com/KnightHacks-GMSJ/AllThingsBooks',
 		description: null,
 		tools: ['javascript', 'nodejs', 'react native', 'jest'],
 		image: allthingsbooks,
@@ -179,7 +179,7 @@ export const mobiles = [
 	{
 		name: 'PakTrak',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: 'https://github.com/stefanwerleman/paktrak',
 		description: null,
 		tools: ['javascript', 'nodejs', 'sql', 'jest'],
 		image: paktrak,
@@ -190,7 +190,7 @@ export const algorithms = [
 	{
 		name: 'SkipList',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: null,
 		description: null,
 		tools: ['java'],
 		image: null,
@@ -198,7 +198,7 @@ export const algorithms = [
 	{
 		name: 'Sneaky Knights',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: null,
 		description: null,
 		tools: ['java', 'python'],
 		image: null,
@@ -206,7 +206,7 @@ export const algorithms = [
 	{
 		name: 'Listy Strings',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: null,
 		description: null,
 		tools: ['c', 'c++'],
 		image: null,
@@ -214,7 +214,7 @@ export const algorithms = [
 	{
 		name: 'Constrained TopoSort',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: null,
 		description: null,
 		tools: ['java'],
 		image: null,
@@ -222,7 +222,7 @@ export const algorithms = [
 	{
 		name: 'Lonely Party Array',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: null,
 		description: null,
 		tools: ['c', 'c++'],
 		image: null,
@@ -230,7 +230,7 @@ export const algorithms = [
 	{
 		name: 'Kindred Spirits',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: null,
 		description: null,
 		tools: ['c++'],
 		image: null,
@@ -238,7 +238,7 @@ export const algorithms = [
 	{
 		name: 'SneakyRooks',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: null,
 		description: null,
 		tools: ['c++'],
 		image: null,
@@ -249,7 +249,7 @@ export const desktop = [
 	{
 		name: 'AlgoVisionKnights',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: 'https://github.com/AlgoVisionKnights',
 		description: null,
 		tools: ['javascript', 'nodejs', 'electronjs', 'reactjs', 'jest'],
 		image: ADVdesktop,
@@ -260,7 +260,7 @@ export const others = [
 	{
 		name: "Cloudflare's Workers Full Stack App",
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: 'https://github.com/stefanwerleman/full-stack-app',
 		description: null,
 		tools: ['javascript', 'nodejs'],
 		image: null,
@@ -268,7 +268,7 @@ export const others = [
 	{
 		name: 'Trie Class',
 		url: null,
-		github: 'https://github.com/stefanwerleman/facebook-clone',
+		github: 'https://github.com/stefanwerleman/trie-container',
 		description: null,
 		tools: ['ruby'],
 		image: null,
