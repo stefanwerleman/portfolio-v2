@@ -5,7 +5,6 @@
 	align-items: flex-start;
 	height: min-content;
 	margin: 0px 0px 100px 0px;
-	/* width: 100%; */
 	min-width: 100%;
 }
 
@@ -74,6 +73,11 @@
 
 .ProjectImage {
 	width: 50%;
+}
+
+.ProjectImage:hover {
+	transform: scale(1.02);
+	transition: 0.5s;
 }
 
 .Project .ProjectImage img {
