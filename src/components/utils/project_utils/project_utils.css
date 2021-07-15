@@ -10,3 +10,31 @@
 	transition: 0.4s;
 	color: #ed5565;
 }
+
+.Description p {
+	font-size: 1.2em;
+	color: #ffffff;
+}
+
+.Description table {
+	width: 100%;
+	text-align: left;
+}
+
+.Description table td,
+.Description table th {
+	padding: 6px;
+}
+
+.Description table td {
+	font-weight: 100;
+}
+
+.Description table tr:nth-child(even) {
+	background-color: #272b3f;
+}
+
+.Description table td span:nth-child(2) {
+	text-align: left !important;
+	margin: 0px;
+}

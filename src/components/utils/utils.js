@@ -35,6 +35,7 @@ import portfoliov1 from './images/portfolio-v1.png';
 import portfoliov2 from './images/home.png';
 import allthingsbooks from './images/allthingsbooks.png';
 import omdb from './images/omdb.png';
+import cloudflare from './images/cloudflare.png';
 
 // JSX for project descriptions
 import {
@@ -268,6 +269,14 @@ export const algorithms = [
 		tools: ['c++'],
 		image: null,
 	},
+	{
+		name: 'Trie Class',
+		url: null,
+		github: 'https://github.com/stefanwerleman/trie-container',
+		description: <TrieClass />,
+		tools: ['ruby'],
+		image: null,
+	},
 ];
 
 export const desktop = [
@@ -284,18 +293,10 @@ export const desktop = [
 export const others = [
 	{
 		name: "Cloudflare's Workers Full Stack App",
-		url: null,
+		url: 'https://stefanwerleman-full-stack-app.stefanwerleman.workers.dev/',
 		github: 'https://github.com/stefanwerleman/full-stack-app',
 		description: <Cloudflare />,
 		tools: ['javascript', 'nodejs'],
-		image: null,
-	},
-	{
-		name: 'Trie Class',
-		url: null,
-		github: 'https://github.com/stefanwerleman/trie-container',
-		description: <TrieClass />,
-		tools: ['ruby'],
-		image: null,
+		image: cloudflare,
 	},
 ];

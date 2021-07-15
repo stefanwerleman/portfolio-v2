@@ -1,6 +1,12 @@
 import './project_utils.css';
 import MathJax from 'react-mathjax';
 
+const constant = `O(1)`;
+const logarithmic = `O(log \\ n)`;
+const linear = `O(n)`;
+const nlogn = `O(n \\ log \\ n)`;
+const n = `n`;
+
 // Websites
 export function AlgoVisionKnightsWeb() {
 	return (
@@ -119,8 +125,6 @@ export function PakTrak() {
 
 // Algorithms and Data Structures
 export function SkipList() {
-	const logn = `O(log n)`;
-
 	return (
 		<div className='Description'>
 			<MathJax.Provider>
@@ -136,8 +140,47 @@ export function SkipList() {
 						<th>Worst Case</th>
 					</tr>
 					<tr>
-						<MathJax.Node formula={logn} />
-						<MathJax.Node formula={logn} />
+						<td>Search</td>
+						<td>
+							<MathJax.Node formula={logarithmic} />
+						</td>
+						<td>
+							<MathJax.Node formula={linear} />
+						</td>
+					</tr>
+					<tr>
+						<td>Insertion</td>
+						<td>
+							<MathJax.Node formula={logarithmic} />
+						</td>
+						<td>
+							<MathJax.Node formula={linear} />
+						</td>
+					</tr>
+
+					<tr>
+						<td>Deletion</td>
+						<td>
+							<MathJax.Node formula={logarithmic} />
+						</td>
+						<td>
+							<MathJax.Node formula={linear} />
+						</td>
+					</tr>
+				</table>
+				<p>Space Complexity</p>
+				<table>
+					<tr>
+						<th>Average Case</th>
+						<th>Worst Case</th>
+					</tr>
+					<tr>
+						<td>
+							<MathJax.Node formula={linear} />
+						</td>
+						<td>
+							<MathJax.Node formula={nlogn} />
+						</td>
 					</tr>
 				</table>
 			</MathJax.Provider>
@@ -146,27 +189,135 @@ export function SkipList() {
 }
 
 export function SneakyKnights() {
-	return <div className='Description'>SneakyKnights</div>;
+	return (
+		<div className='Description'>
+			<MathJax.Provider>
+				Developed two functions in Java and Python that receives a list
+				of coordinates for knights on a chess board an and determines
+				whether any of the knights can attack one another.
+				<br />
+				<br />
+				The method runs with an average runtime of{' '}
+				<MathJax.Node inline formula={linear} /> time where{' '}
+				<MathJax.Node inline formula={n} /> is the number of knights on
+				the chess board.
+			</MathJax.Provider>
+		</div>
+	);
 }
 
 export function ListyStrings() {
-	return <div className='Description'>ListyStrings</div>;
+	return (
+		<div className='Description'>
+			Made two parsers in C and C++ that parses any string from an input
+			file and produces a linked list of the characters in the string.
+		</div>
+	);
 }
 
 export function ConstrainedTopoSort() {
-	return <div className='Description'>ConstrainedTopoSort</div>;
+	return (
+		<div className='Description'>
+			Implemented a Java method that verifies whether an arbitrary
+			directed graph has a valid topological ordering. This method can
+			make comparisons between any datatype or defined comparable
+			structure.
+		</div>
+	);
 }
 
 export function LonelyPartyArray() {
-	return <div className='Description'>LonelyPartyArray</div>;
+	return (
+		<div className='Description'>
+			Developed two dynamic array-like data structure containers in C and
+			C++ that does not allocate any unused and wasted space like a
+			typical array does.
+			<br />
+			<br />
+			Utilized GCC's -print-memory-usage flags to compare the memory usage
+			between this data structure and normal arrays as well as Valgrind to
+			check for any memory leaks in a Linux environment.
+		</div>
+	);
 }
 
 export function KindredSpirits() {
-	return <div className='Description'>KindredSpirits</div>;
+	return (
+		<div className='Description'>
+			Built a C++ program that checks if two binary trees are reflections
+			of each other.
+			<br />
+			<br />
+			Created a Binary Tree container class from scratch to utilize as
+			inputs. Utilized recursion and pointer arithmetic to verify each
+			node at their respective positions.
+		</div>
+	);
 }
 
 export function SneakyRooks() {
-	return <div className='Description'>SneakyRooks</div>;
+	return (
+		<div className='Description'>
+			<MathJax.Provider>
+				Built a C++ program that receives coordinates of rooks on a
+				chess board and determine if all the rooks on the board cannot
+				attack each other.
+				<br />
+				<br />
+				The method runs with an average runtime of{' '}
+				<MathJax.Node inline formula={linear} /> time where{' '}
+				<MathJax.Node inline formula={n} /> is the number of rooks on
+				the chess board.
+			</MathJax.Provider>
+		</div>
+	);
+}
+
+export function TrieClass() {
+	return (
+		<div className='Description'>
+			<MathJax.Provider>
+				Developed a Ruby container class that implements the trie data
+				structure.
+				<p>Time Complexity for a Trie</p>
+				<table>
+					<tr>
+						<th>Operation</th>
+						<th>Best Case</th>
+						<th>Worst Case</th>
+					</tr>
+					<tr>
+						<td>Search</td>
+						<td>
+							<MathJax.Node formula={constant} />
+						</td>
+						<td>
+							<MathJax.Node formula={linear} />
+						</td>
+					</tr>
+					<tr>
+						<td>Insertion</td>
+						<td>
+							<MathJax.Node formula={linear} />
+						</td>
+						<td>
+							<MathJax.Node formula={linear} />
+						</td>
+					</tr>
+
+					<tr>
+						<td>Deletion</td>
+						<td>
+							<MathJax.Node formula={constant} />
+						</td>
+						<td>
+							<MathJax.Node formula={linear} />
+						</td>
+					</tr>
+				</table>
+			</MathJax.Provider>
+		</div>
+	);
 }
 
 // Desktop
@@ -176,15 +327,27 @@ export function AlgoVisionKnightsDesktop() {
 			This is the desktop version of the AlgoVisionKnights application.
 			The purpose for this desktop application is to give the user the
 			freedom to download use the visualizers in an offline setting.
+			<br />
+			<br />
+			Once you enter the site the download button should be on the
+			top-right with the correct operating system.
 		</div>
 	);
 }
 
 // Others
 export function Cloudflare() {
-	return <div className='Description'>Cloudflare</div>;
-}
-
-export function TrieClass() {
-	return <div className='Description'>TrieClass</div>;
+	return (
+		<div className='Description'>
+			Developed a JavaScript application that randomly opens one of two
+			pages whenever a user enters the site. Click on the link to see the
+			site and try to frequently refresh the page to see it switch
+			contents. Both pages have a 50% chance of being loaded.
+			<br />
+			<br />
+			This application was for an internship challenge with Cloudflare
+			that allowed applications to demonstrate their technical skills with
+			Cloudflare technologies.
+		</div>
+	);
 }

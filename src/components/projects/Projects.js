@@ -12,7 +12,7 @@ function Projects() {
 
 	const websiteSection = () => {
 		return (
-			<div className='SubSection'>
+			<div id='website' className='SubSection'>
 				<p className='SubSectionHeader'>Websites</p>
 				<div className='ProjectsContainer'>
 					{websites.map((website, i) => (
@@ -34,7 +34,7 @@ function Projects() {
 
 	const mobileSection = () => {
 		return (
-			<div className='SubSection'>
+			<div id='mobile' className='SubSection'>
 				<p className='SubSectionHeader'>Mobile Applications</p>
 				<div className='ProjectsContainer'>
 					{mobiles.map((mobile, i) => (
@@ -56,7 +56,7 @@ function Projects() {
 
 	const algorithmsSection = () => {
 		return (
-			<div className='SubSection'>
+			<div id='algorithm' className='SubSection'>
 				<p className='SubSectionHeader'>
 					Algorithms and Data Structures
 				</p>
@@ -80,7 +80,7 @@ function Projects() {
 
 	const desktopSection = () => {
 		return (
-			<div className='SubSection'>
+			<div id='desktop' className='SubSection'>
 				<p className='SubSectionHeader'>Desktop Applications</p>
 				<div className='ProjectsContainer'>
 					{desktop.map((desktop, i) => (
@@ -102,7 +102,7 @@ function Projects() {
 
 	const otherSection = () => {
 		return (
-			<div className='SubSection'>
+			<div id='other' className='SubSection'>
 				<p className='SubSectionHeader'>Other Projects</p>
 				<div className='ProjectsContainer'>
 					{others.map((other, i) => (
@@ -141,9 +141,9 @@ function Projects() {
 	return (
 		<div className='Projects' id='projects'>
 			<div className='Bookmark'>
-                                <p>02</p>
-                                <hr />
-                        </div>
+				<p>02</p>
+				<hr />
+			</div>
 			<div className='ProjectsBody'>
 				<p className='SectionHeader'>Projects</p>
 				<div className='ProjectGroup'>

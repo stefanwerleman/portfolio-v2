@@ -63,3 +63,9 @@
 	justify-content: flex-start;
 	align-items: center;
 }
+
+#mobile .Project .ProjectImage img {
+	width: inherit;
+	height: inherit;
+	border-radius: 27px;
+}
