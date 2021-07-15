@@ -5,7 +5,7 @@ import React from 'react';
 import Skill from '../skill/Skill';
 
 // Tools
-import { langauges, frameworks, technologies, icons } from '../utils/tools';
+import { langauges, frameworks, technologies, icons } from '../utils/utils';
 
 function Skills() {
 	const totalYears = 4;

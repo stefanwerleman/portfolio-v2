@@ -1,0 +1,88 @@
+.Project {
+	color: #ffffff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: min-content;
+	margin: 0px 0px 150px 0px;
+	min-width: 100%;
+}
+
+.ProjectBody {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+	height: auto;
+	margin: var(--margin);
+}
+
+.ProjectHeading {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+	margin: 0px 0px 20px 0px;
+}
+
+.ProjectLinks a {
+	font-size: 1.7em;
+	text-decoration: none;
+	color: #747c92;
+	cursor: pointer;
+}
+
+.ProjectLinks a:hover {
+	color: #ed5565;
+	transition: 0.3s;
+}
+
+#github-link {
+	margin: 0px 10px 0px 0px;
+}
+
+.ProjectName {
+	font-weight: 600;
+	font-size: 1.5em;
+}
+
+.ProjectDescription {
+	position: relative;
+	font-weight: 600;
+	color: #747c92;
+	margin: 0px 0px 20px 0px;
+}
+
+.ProjectFooter {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	color: #ed5565;
+	font-weight: 700;
+}
+
+.FooterHeader {
+	margin: 0px 0px 10px 0px;
+	font-size: 1.2em;
+}
+
+.ProjectFooter .SkillIcon {
+	margin: 0px 15px 0px 0px;
+}
+
+.ProjectImage {
+	width: 50%;
+}
+
+.ProjectImage:hover {
+	transform: scale(1.02);
+	transition: 0.5s;
+}
+
+.Project .ProjectImage img {
+	width: 100%;
+	height: 100%;
+	box-shadow: 4px 4px 5px #ed5565;
+	border-radius: 5px;
+}

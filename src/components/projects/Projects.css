@@ -4,5 +4,68 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* padding: 150px 0px 150px 0px; */
+	padding: 150px 0px 150px 0px;
+}
+
+.ProjectsBody {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+
+.ProjectGroup {
+	display: flex;
+	margin: 30px 0px 0px 0px;
+	font-size: 1em;
+	border-radius: 10px;
+	padding: 0px;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.ProjectGroup button {
+	color: #ed5565;
+	padding: 10px 10px 10px 10px;
+	cursor: pointer;
+}
+
+.ProjectGroup button:nth-child(1) {
+	border-radius: 5px 0px 0px 5px;
+	border-right: 1px solid #ed5565;
+}
+
+.ProjectGroup button:nth-child(2),
+.ProjectGroup button:nth-child(3),
+.ProjectGroup button:nth-child(4) {
+	border-left: 1px solid #ed5565;
+	border-right: 1px solid #ed5565;
+}
+
+.ProjectGroup button:nth-child(5) {
+	border-radius: 0px 5px 5px 0px;
+	border-left: 1px solid #ed5565;
+}
+
+.ProjectGroup button:nth-child(1):focus,
+.ProjectGroup button:nth-child(2):focus,
+.ProjectGroup button:nth-child(3):focus,
+.ProjectGroup button:nth-child(4):focus,
+.ProjectGroup button:nth-child(5):focus {
+	background-color: #ed5565;
+	color: #191c2a;
+}
+
+.ProjectsContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#mobile .Project .ProjectImage img {
+	width: inherit;
+	height: inherit;
+	border-radius: 27px;
 }

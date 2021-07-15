@@ -76,7 +76,12 @@ button {
 .ResumeButton:hover,
 .SkillsBody .ButtonGroup button:nth-child(1):hover,
 .SkillsBody .ButtonGroup button:nth-child(2):hover,
-.SkillsBody .ButtonGroup button:nth-child(3):hover {
+.SkillsBody .ButtonGroup button:nth-child(3):hover,
+.ProjectGroup button:nth-child(1):hover,
+.ProjectGroup button:nth-child(2):hover,
+.ProjectGroup button:nth-child(3):hover,
+.ProjectGroup button:nth-child(4):hover,
+.ProjectGroup button:nth-child(5):hover {
 	background-color: #ed5565;
 	color: #191c2a;
 	transition: 0.4s;
