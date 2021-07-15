@@ -36,6 +36,14 @@ import portfoliov2 from './images/home.png';
 import allthingsbooks from './images/allthingsbooks.png';
 import omdb from './images/omdb.png';
 import cloudflare from './images/cloudflare.png';
+import skiplist from './images/skiplist.gif';
+import knights from './images/knights.png';
+import rooks from './images/rooks.png';
+import trie from './images/trie.png';
+import lpa from './images/lpa.png';
+import kindred from './images/kindred.png';
+import listystring from './images/listystring.png';
+import toposort from './images/toposort.png';
 
 // JSX for project descriptions
 import {
@@ -219,7 +227,7 @@ export const algorithms = [
 		github: null,
 		description: <SkipList />,
 		tools: ['java'],
-		image: null,
+		image: skiplist,
 	},
 	{
 		name: 'Sneaky Knights',
@@ -227,7 +235,7 @@ export const algorithms = [
 		github: null,
 		description: <SneakyKnights />,
 		tools: ['java', 'python'],
-		image: null,
+		image: knights,
 	},
 	{
 		name: 'Listy Strings',
@@ -235,7 +243,7 @@ export const algorithms = [
 		github: null,
 		description: <ListyStrings />,
 		tools: ['c', 'c++'],
-		image: null,
+		image: listystring,
 	},
 	{
 		name: 'Constrained TopoSort',
@@ -243,7 +251,7 @@ export const algorithms = [
 		github: null,
 		description: <ConstrainedTopoSort />,
 		tools: ['java'],
-		image: null,
+		image: toposort,
 	},
 	{
 		name: 'Lonely Party Array',
@@ -251,7 +259,7 @@ export const algorithms = [
 		github: null,
 		description: <LonelyPartyArray />,
 		tools: ['c', 'c++'],
-		image: null,
+		image: lpa,
 	},
 	{
 		name: 'Kindred Spirits',
@@ -259,7 +267,7 @@ export const algorithms = [
 		github: null,
 		description: <KindredSpirits />,
 		tools: ['c++'],
-		image: null,
+		image: kindred,
 	},
 	{
 		name: 'SneakyRooks',
@@ -267,7 +275,7 @@ export const algorithms = [
 		github: null,
 		description: <SneakyRooks />,
 		tools: ['c++'],
-		image: null,
+		image: rooks,
 	},
 	{
 		name: 'Trie Class',
@@ -275,7 +283,7 @@ export const algorithms = [
 		github: 'https://github.com/stefanwerleman/trie-container',
 		description: <TrieClass />,
 		tools: ['ruby'],
-		image: null,
+		image: trie,
 	},
 ];
 

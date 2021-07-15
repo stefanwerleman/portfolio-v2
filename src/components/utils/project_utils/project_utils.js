@@ -6,6 +6,8 @@ const logarithmic = `O(log \\ n)`;
 const linear = `O(n)`;
 const nlogn = `O(n \\ log \\ n)`;
 const n = `n`;
+const str = `str`;
+const key = `key`;
 
 // Websites
 export function AlgoVisionKnightsWeb() {
@@ -209,8 +211,67 @@ export function SneakyKnights() {
 export function ListyStrings() {
 	return (
 		<div className='Description'>
-			Made two parsers in C and C++ that parses any string from an input
-			file and produces a linked list of the characters in the string.
+			<MathJax.Provider>
+				Made two parsers in C and C++ that parses any string from an
+				input file and produces a linked list of the characters in the
+				string.
+				<br />
+				<br />
+				This container includes the following operations:
+				<ul>
+					<li>
+						<span className='Function'>replace(key, str)</span>
+						<ul className='NestedUL'>
+							<li>
+								Replaces all instances of{' '}
+								<MathJax.Node inline formula={key} /> with{' '}
+								<MathJax.Node inline formula={str} /> in the
+								working lisy string.
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span className='Function'>append(str)</span>
+						<ul className='NestedUL'>
+							<li>
+								Converts <MathJax.Node inline formula={str} />{' '}
+								into a listy string and then appends it to the
+								main working listy string.
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span className='Function'>delete(key)</span>
+						<ul className='NestedUL'>
+							<li>
+								Deletes all instances of{' '}
+								<MathJax.Node inline formula={key} /> in the
+								working listy string.
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span className='Function'>reverse()</span>
+						<ul className='NestedUL'>
+							<li>Reverses the working listy string.</li>
+						</ul>
+					</li>
+					<li>
+						<span className='Function'>size()</span>
+						<ul className='NestedUL'>
+							<li>
+								Returns the number of nodes in the listy string.
+							</li>
+						</ul>
+					</li>
+					<li>
+						<span className='Function'>print()</span>
+						<ul className='NestedUL'>
+							<li>Prints the listy string.</li>
+						</ul>
+					</li>
+				</ul>
+			</MathJax.Provider>
 		</div>
 	);
 }
@@ -230,8 +291,8 @@ export function LonelyPartyArray() {
 	return (
 		<div className='Description'>
 			Developed two dynamic array-like data structure containers in C and
-			C++ that does not allocate any unused and wasted space like a
-			typical array does.
+			C++ that limits any unused and wasted space like a typical array
+			does.
 			<br />
 			<br />
 			Utilized GCC's -print-memory-usage flags to compare the memory usage
