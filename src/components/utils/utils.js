@@ -1,3 +1,4 @@
+// Icons
 import {
 	SiCodio,
 	SiCplusplus,
@@ -24,6 +25,7 @@ import {
 } from 'react-icons/si';
 import { VscJson } from 'react-icons/vsc';
 
+// Images
 import ADVweb from './images/adv-web.png';
 import ADVdesktop from './images/adv-desktop.png';
 import detector from './images/detector.png';
@@ -32,6 +34,29 @@ import paktrak from './images/paktrak.png';
 import portfoliov1 from './images/portfolio-v1.png';
 import portfoliov2 from './images/home.png';
 import allthingsbooks from './images/allthingsbooks.png';
+import omdb from './images/omdb.png';
+
+// JSX for project descriptions
+import {
+	AlgoVisionKnightsWeb,
+	DocumentDrop,
+	FacebookChat,
+	PlagiarismDetector,
+	PortfolioV1,
+	PortfolioV2,
+	AllThingsBooks,
+	PakTrak,
+	ConstrainedTopoSort,
+	KindredSpirits,
+	ListyStrings,
+	LonelyPartyArray,
+	SkipList,
+	SneakyKnights,
+	SneakyRooks,
+	AlgoVisionKnightsDesktop,
+	Cloudflare,
+	TrieClass,
+} from './project_utils/project_utils';
 
 export const icons = {
 	c: <SiCodio className='SkillIcon' style={{ color: '#5c6bc0' }} />,
@@ -121,7 +146,7 @@ export const websites = [
 		name: 'AlgoVisionKnights',
 		url: 'https://algovisionknights.com',
 		github: 'https://github.com/AlgoVisionKnights',
-		description: ``,
+		description: <AlgoVisionKnightsWeb />,
 		tools: ['javascript', 'nodejs', 'reactjs', 'css3', 'jest'],
 		image: ADVweb,
 	},
@@ -129,7 +154,7 @@ export const websites = [
 		name: 'Plagiarism Detector',
 		url: null,
 		github: 'https://github.com/stefanwerleman/plagiarismdetector',
-		description: ``,
+		description: <PlagiarismDetector />,
 		tools: ['python', 'django', 'html5', 'css3'],
 		image: detector,
 	},
@@ -137,7 +162,7 @@ export const websites = [
 		name: 'Portfolio Version 2',
 		url: null,
 		github: 'https://github.com/stefanwerleman/portfolio-v2',
-		description: null,
+		description: <PortfolioV2 />,
 		tools: ['javascript', 'nodejs', 'css3', 'jest'],
 		image: portfoliov2,
 	},
@@ -145,7 +170,7 @@ export const websites = [
 		name: 'Portfolio Version 1',
 		url: null,
 		github: 'https://github.com/stefanwerleman/portfolio-v1',
-		description: null,
+		description: <PortfolioV1 />,
 		tools: ['javascript', 'nodejs', 'css3', 'jest'],
 		image: portfoliov1,
 	},
@@ -153,7 +178,7 @@ export const websites = [
 		name: 'Facebook Chat',
 		url: null,
 		github: 'https://github.com/stefanwerleman/facebook-clone',
-		description: null,
+		description: <FacebookChat />,
 		tools: ['javascript', 'nodejs', 'mongodb', 'html5', 'css3', 'mocha'],
 		image: facebook,
 	},
@@ -161,9 +186,9 @@ export const websites = [
 		name: 'Document Drop Application',
 		url: null,
 		github: 'https://github.com/chrisfeltner/over-my-dead-body',
-		description: null,
+		description: <DocumentDrop />,
 		tools: ['javascript', 'nodejs', 'reactjs', 'css3', 'jest'],
-		image: null,
+		image: omdb,
 	},
 ];
 
@@ -172,7 +197,7 @@ export const mobiles = [
 		name: 'All Things Books',
 		url: null,
 		github: 'https://github.com/KnightHacks-GMSJ/AllThingsBooks',
-		description: null,
+		description: <AllThingsBooks />,
 		tools: ['javascript', 'nodejs', 'react native', 'jest'],
 		image: allthingsbooks,
 	},
@@ -180,8 +205,8 @@ export const mobiles = [
 		name: 'PakTrak',
 		url: null,
 		github: 'https://github.com/stefanwerleman/paktrak',
-		description: null,
-		tools: ['javascript', 'nodejs', 'sql', 'jest'],
+		description: <PakTrak />,
+		tools: ['javascript', 'nodejs', 'react native', 'sql', 'jest'],
 		image: paktrak,
 	},
 ];
@@ -191,7 +216,7 @@ export const algorithms = [
 		name: 'SkipList',
 		url: null,
 		github: null,
-		description: null,
+		description: <SkipList />,
 		tools: ['java'],
 		image: null,
 	},
@@ -199,7 +224,7 @@ export const algorithms = [
 		name: 'Sneaky Knights',
 		url: null,
 		github: null,
-		description: null,
+		description: <SneakyKnights />,
 		tools: ['java', 'python'],
 		image: null,
 	},
@@ -207,7 +232,7 @@ export const algorithms = [
 		name: 'Listy Strings',
 		url: null,
 		github: null,
-		description: null,
+		description: <ListyStrings />,
 		tools: ['c', 'c++'],
 		image: null,
 	},
@@ -215,7 +240,7 @@ export const algorithms = [
 		name: 'Constrained TopoSort',
 		url: null,
 		github: null,
-		description: null,
+		description: <ConstrainedTopoSort />,
 		tools: ['java'],
 		image: null,
 	},
@@ -223,7 +248,7 @@ export const algorithms = [
 		name: 'Lonely Party Array',
 		url: null,
 		github: null,
-		description: null,
+		description: <LonelyPartyArray />,
 		tools: ['c', 'c++'],
 		image: null,
 	},
@@ -231,7 +256,7 @@ export const algorithms = [
 		name: 'Kindred Spirits',
 		url: null,
 		github: null,
-		description: null,
+		description: <KindredSpirits />,
 		tools: ['c++'],
 		image: null,
 	},
@@ -239,7 +264,7 @@ export const algorithms = [
 		name: 'SneakyRooks',
 		url: null,
 		github: null,
-		description: null,
+		description: <SneakyRooks />,
 		tools: ['c++'],
 		image: null,
 	},
@@ -248,9 +273,9 @@ export const algorithms = [
 export const desktop = [
 	{
 		name: 'AlgoVisionKnights',
-		url: null,
+		url: 'https://algovisionknights.com',
 		github: 'https://github.com/AlgoVisionKnights',
-		description: null,
+		description: <AlgoVisionKnightsDesktop />,
 		tools: ['javascript', 'nodejs', 'electronjs', 'reactjs', 'jest'],
 		image: ADVdesktop,
 	},
@@ -261,7 +286,7 @@ export const others = [
 		name: "Cloudflare's Workers Full Stack App",
 		url: null,
 		github: 'https://github.com/stefanwerleman/full-stack-app',
-		description: null,
+		description: <Cloudflare />,
 		tools: ['javascript', 'nodejs'],
 		image: null,
 	},
@@ -269,7 +294,7 @@ export const others = [
 		name: 'Trie Class',
 		url: null,
 		github: 'https://github.com/stefanwerleman/trie-container',
-		description: null,
+		description: <TrieClass />,
 		tools: ['ruby'],
 		image: null,
 	},

@@ -1,0 +1,12 @@
+.Description li {
+	margin: 0px 0px 10px 0px;
+}
+
+.Description a {
+	color: #3e92cc;
+}
+
+.Description a:hover {
+	transition: 0.4s;
+	color: #ed5565;
+}
