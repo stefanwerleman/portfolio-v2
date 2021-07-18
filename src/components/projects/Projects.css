@@ -31,6 +31,32 @@
 	cursor: pointer;
 }
 
+.MobileButtonGroup {
+	flex-direction: column;
+	align-items: center;
+}
+.MobileButtonGroup button {
+	cursor: pointer;
+	padding: 5px 35px 5px 35px;
+	border-radius: 10px;
+	margin: 0px;
+}
+
+.MobileButtonGroup button:hover {
+	transition: 0.6s;
+	background-color: #ed5565;
+}
+
+.MobileButtonGroup button:hover svg {
+	transition: 0.6s;
+	color: #1f2233;
+}
+
+.MobileButtonGroup button svg {
+	font-size: 1.8em;
+	color: #ed5565;
+}
+
 .ProjectGroup button:nth-child(1) {
 	border-radius: 5px 0px 0px 5px;
 	border-right: 1px solid #ed5565;
@@ -68,4 +94,61 @@
 	width: inherit;
 	height: inherit;
 	border-radius: 27px;
+}
+
+.ProjectsContainer .Project:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.ProjectsContainer .Project:nth-child(odd) .ProjectBody {
+	margin: 0px 40px 0px 0px;
+}
+
+.ProjectsContainer .Project:nth-child(even) .ProjectBody {
+	margin: 0px 0px 0px 40px;
+}
+
+.MobileButtonGroup {
+	display: none;
+}
+
+@media (max-width: 485px) {
+	.WebButtonGroup {
+		display: none;
+	}
+
+	.MobileButtonGroup {
+		display: flex;
+		margin: 30px 0px 0px 0px;
+	}
+
+	.ProjectGroup {
+		display: none;
+		position: absolute;
+		z-index: 0;
+		margin: 35px 0px 0px 0px;
+		background-color: #191c2a;
+		flex-direction: column;
+	}
+
+	.ProjectGroup button {
+		border-radius: 0px !important;
+		border-width: 1px;
+	}
+
+	.ProjectGroup button:nth-child(1) {
+		border-radius: 10px 10px 0px 0px !important;
+	}
+
+	.ProjectGroup button:nth-child(5) {
+		border-radius: 0px 0px 10px 10px !important;
+	}
+
+	.MobileButtonGroup .DropdownButton:hover .ProjectGroup {
+		display: flex;
+	}
+
+	.MobileButtonGroup .DropdownButton button {
+		padding: 10px;
+	}
 }

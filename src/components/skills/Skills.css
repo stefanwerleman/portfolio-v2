@@ -98,3 +98,9 @@
 		font-size: 0.7em;
 	}
 }
+
+@media (max-width: 345px) {
+	.ButtonGroup button {
+		font-size: 0.6em !important;
+	}
+}

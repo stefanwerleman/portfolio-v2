@@ -9,15 +9,8 @@ import { SiGithub } from 'react-icons/si';
 // If id is even, float right. Odd float left.
 function Project({ id, name, url, github, description, tools, image }) {
 	return (
-		<div
-			className='Project'
-			style={{ flexDirection: id % 2 === 0 ? 'row' : 'row-reverse' }}>
-			<div
-				className='ProjectBody'
-				style={{
-					'--margin':
-						id % 2 === 0 ? '	0px 40px 0px 0px' : '0px 0px 0px 40px',
-				}}>
+		<div className='Project'>
+			<div className='ProjectBody'>
 				<div className='ProjectHeading'>
 					<span className='ProjectName'>{name}</span>
 					<span className='ProjectLinks'>

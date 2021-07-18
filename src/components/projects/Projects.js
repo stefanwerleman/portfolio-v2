@@ -6,6 +6,7 @@ import Project from '../project/Project';
 
 // Assets
 import { websites, mobiles, algorithms, desktop, others } from '../utils/utils';
+import { HiMenu } from 'react-icons/hi';
 
 function Projects() {
 	const [section, setSection] = React.useState(0);
@@ -122,6 +123,43 @@ function Projects() {
 		);
 	};
 
+	const renderSectionButtons = () => {
+		return (
+			<div className='ProjectGroup'>
+				<button
+					onClick={() => {
+						setSection(0);
+					}}>
+					WEBSITES
+				</button>
+				<button
+					onClick={() => {
+						setSection(1);
+					}}>
+					MOBILE
+				</button>
+				<button
+					onClick={() => {
+						setSection(2);
+					}}>
+					ALGORITHMS AND DATA STRUCTURES
+				</button>
+				<button
+					onClick={() => {
+						setSection(3);
+					}}>
+					DESKTOP
+				</button>
+				<button
+					onClick={() => {
+						setSection(4);
+					}}>
+					OTHER
+				</button>
+			</div>
+		);
+	};
+
 	const toggleSection = () => {
 		if (section === 0) {
 			return websiteSection();
@@ -146,38 +184,13 @@ function Projects() {
 			</div>
 			<div className='ProjectsBody'>
 				<p className='SectionHeader'>Projects</p>
-				<div className='ProjectGroup'>
-					<button
-						onClick={() => {
-							setSection(0);
-						}}>
-						WEBSITES
-					</button>
-					<button
-						onClick={() => {
-							setSection(1);
-						}}>
-						MOBILE
-					</button>
-					<button
-						onClick={() => {
-							setSection(2);
-						}}>
-						ALGORITHMS AND DATASTRUCTURES
-					</button>
-					<button
-						onClick={() => {
-							setSection(3);
-						}}>
-						DESKTOP
-					</button>
-					<button
-						onClick={() => {
-							setSection(4);
-						}}>
-						OTHER
+				<div className='MobileButtonGroup'>
+					<button className='DropdownButton'>
+						<HiMenu />
+						{renderSectionButtons()}
 					</button>
 				</div>
+				<div className='WebButtonGroup'>{renderSectionButtons()}</div>
 				{toggleSection()}
 			</div>
 		</div>

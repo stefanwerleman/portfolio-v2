@@ -86,3 +86,31 @@
 	box-shadow: 4px 4px 5px #ed5565;
 	border-radius: 5px;
 }
+
+@media (max-width: 836px) {
+	.Project {
+		flex-direction: column-reverse !important;
+		align-items: center;
+	}
+
+	.ProjectBody {
+		margin: 0px !important;
+		width: 100%;
+	}
+
+	.ProjectImage {
+		width: 100%;
+		margin: 0px 0px 30px;
+	}
+
+	#mobile .Project .ProjectImage img {
+		width: 200px;
+		height: auto;
+	}
+
+	#mobile .Project .ProjectImage {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+}
