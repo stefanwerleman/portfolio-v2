@@ -94,3 +94,9 @@
 		color: #ffffff;
 	}
 }
+
+@media (max-width: 320px) {
+	.HeaderName {
+		font-size: 2em;
+	}
+}

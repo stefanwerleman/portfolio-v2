@@ -12,7 +12,7 @@
 
 .Menu {
 	margin: 0px 0px 0px 40px;
-	width: 670px;
+	width: 100%;
 }
 
 .MobileMenu {
@@ -33,9 +33,13 @@
 .NavList {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	width: 100%;
+}
+
+.NavList a {
+	margin: 0px 12px 0px 12px;
 }
 
 .NavLink {
@@ -69,7 +73,13 @@
 	margin: 0px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 981px) {
+	.NavList a {
+		margin: 0px 0px 0px 0px;
+	}
+}
+
+@media (max-width: 836px) {
 	.Navigation {
 		background-color: #191c2a;
 		box-shadow: 1px 1px 5px #000000;
