@@ -126,7 +126,7 @@ export const langauges = [
 	{ name: 'Python', years: 2, max: 4, color: '#008397' },
 	{ name: 'SQL', years: 0, color: '#00608c' },
 	{ name: 'TypeScript', years: 0, color: '#2f74c0' },
-	{ name: 'Ruby', years: 1, color: '#2f74c0' },
+	{ name: 'Ruby', years: 1, color: '#e51f49' },
 ];
 
 export const frameworks = [
