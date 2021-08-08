@@ -38,7 +38,7 @@ function Education() {
 						</p>
 						<div className='SchoolInfo'>
 							<p>Bachelor of Science in Computer Science </p>
-							<p>GPA: 3.721</p>
+							<p>GPA: 3.727</p>
 							<p>2018 - 2021</p>
 							<p>
 								Activities and Societies: NSF FLIT-PATH Scholar,
