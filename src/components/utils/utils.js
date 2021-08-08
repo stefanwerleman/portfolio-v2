@@ -22,8 +22,10 @@ import {
 	SiFirebase,
 	SiGit,
 	SiGithub,
+	SiDocker,
 } from 'react-icons/si';
 import { VscJson } from 'react-icons/vsc';
+import { IoTerminal } from 'react-icons/all';
 
 // Images
 import ADVweb from './images/adv-web.png';
@@ -114,6 +116,10 @@ export const icons = {
 	json: <VscJson className='SkillIcon' style={{ color: '#f7e018' }} />,
 	firebase: <SiFirebase className='SkillIcon' style={{ color: '#f7a213' }} />,
 	windows: <SiWindows className='SkillIcon' style={{ color: '#00bdf6' }} />,
+	docker: <SiDocker className='SkillIcon' style={{ color: '#2391e6' }} />,
+	'shell scripting': (
+		<IoTerminal className='SkillIcon' style={{ color: '#1d7254' }} />
+	),
 };
 
 export const langauges = [
@@ -123,7 +129,8 @@ export const langauges = [
 	{ name: 'JavaScript', years: 3, color: '#f7e018' },
 	{ name: 'HTML5', years: 3, color: '#e44d26' },
 	{ name: 'CSS3', years: 3, color: '#379ad6' },
-	{ name: 'Python', years: 2, max: 4, color: '#008397' },
+	{ name: 'Python', years: 2, color: '#008397' },
+	{ name: 'Shell Scripting', years: 1, color: '#1d7254' },
 	{ name: 'SQL', years: 0, color: '#00608c' },
 	{ name: 'TypeScript', years: 0, color: '#2f74c0' },
 	{ name: 'Ruby', years: 1, color: '#e51f49' },
@@ -148,6 +155,7 @@ export const technologies = [
 	{ name: 'Windows', years: 4, color: '#00bdf6' },
 	{ name: 'JSON', years: 3, color: '#f7e018' },
 	{ name: 'Firebase', years: 1, color: '#f7a213' },
+	{ name: 'Docker', years: 0, color: '#2391e6' },
 ];
 
 export const websites = [
