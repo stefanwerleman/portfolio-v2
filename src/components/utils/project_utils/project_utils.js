@@ -402,7 +402,7 @@ export function Cloudflare() {
 		<div className='Description'>
 			Developed a JavaScript application that randomly opens one of two
 			pages whenever a user enters the site. Click on the link to see the
-			site and try to frequently refresh the page to see it switch
+			site and try to refresh the page multiple times to see it switch
 			contents. Both pages have a 50% chance of being loaded.
 			<br />
 			<br />
