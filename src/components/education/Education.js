@@ -8,7 +8,7 @@ function Education() {
 	return (
 		<div className='Education' id='education'>
 			<div className='Bookmark'>
-				<p>04</p>
+				<p>05</p>
 				<hr />
 			</div>
 			<div className='EducationBody'>

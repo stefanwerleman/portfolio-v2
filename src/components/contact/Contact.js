@@ -9,7 +9,7 @@ function Contact() {
 	return (
 		<div className='Contact' id='contact'>
 			<div className='Bookmark'>
-				<p>05</p>
+				<p>06</p>
 				<hr />
 			</div>
 			<div className='ContactContainer'>

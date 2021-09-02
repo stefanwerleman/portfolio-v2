@@ -99,7 +99,7 @@ function Skills() {
 	return (
 		<div className='Skills' id='skills'>
 			<div className='Bookmark'>
-				<p>03</p>
+				<p>04</p>
 				<hr />
 			</div>
 			<div className='SkillsBody'>

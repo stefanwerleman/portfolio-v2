@@ -7,7 +7,7 @@ function Experience() {
 	return (
 		<div className='Experience' id='experience'>
 			<div className='Bookmark'>
-				<p>04</p>
+				<p>02</p>
 				<hr />
 			</div>
 			<div className='ExperienceBody'>
