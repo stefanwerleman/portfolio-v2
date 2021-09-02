@@ -18,27 +18,33 @@ function Navigation() {
 						<p>ABOUT ME</p>
 					</button>
 				</HashLink>
-				<HashLink to='/#projects' smooth>
+				<HashLink to='/#experience' smooth>
 					<button className='NavLink'>
 						<p>02.</p>
+						<p>EXPERIENCE</p>
+					</button>
+				</HashLink>
+				<HashLink to='/#projects' smooth>
+					<button className='NavLink'>
+						<p>03.</p>
 						<p>PROJECTS</p>
 					</button>
 				</HashLink>
 				<HashLink to='/#skills' smooth>
 					<button className='NavLink'>
-						<p>03.</p>
+						<p>04.</p>
 						<p>SKILLS</p>
 					</button>
 				</HashLink>
 				<HashLink to='/#education' smooth>
 					<button className='NavLink'>
-						<p>04.</p>
+						<p>05.</p>
 						<p>EDUCATION</p>
 					</button>
 				</HashLink>
 				<HashLink to='/#contact' smooth>
 					<button className='NavLink' smooth>
-						<p>05.</p>
+						<p>06.</p>
 						<p>CONTACT</p>
 					</button>
 				</HashLink>
