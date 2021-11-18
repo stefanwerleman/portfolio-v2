@@ -21,7 +21,7 @@ function Education() {
 						</p>
 						<div className='SchoolInfo'>
 							<p>Master of Science in Computer Science </p>
-							<p>2021 - 2022</p>
+							<p>2021 - 2023</p>
 						</div>
 						<p className='Description'>
 							Coursework: Data Science, Machine Learning,
