@@ -100,7 +100,7 @@
 @media (max-width: 994px) {
 	.Navigation {
 		background-color: #191c2a;
-		box-shadow: 1px 1px 5px #000000;
+		/* box-shadow: 1px 1px 5px #000000; */
 	}
 
 	.MobileMenu {
@@ -139,5 +139,12 @@
 
 	.NavList a {
 		width: 100%;
+		align-items: center;
+	}
+
+	.ResumeButton {
+		width: 100%;
+		border-width: 0px;
+		font-size: 0.93em;
 	}
 }
