@@ -123,39 +123,39 @@ export const icons = {
 };
 
 export const langauges = [
-	{ name: 'C', years: 4, color: '#5c6bc0' },
-	{ name: 'Java', years: 4, color: '#ec2025' },
-	{ name: 'C++', years: 3, color: '#649ad2' },
-	{ name: 'JavaScript', years: 3, color: '#f7e018' },
-	{ name: 'HTML5', years: 3, color: '#e44d26' },
-	{ name: 'CSS3', years: 3, color: '#379ad6' },
-	{ name: 'Python', years: 2, color: '#008397' },
-	{ name: 'Shell Scripting', years: 1, color: '#1d7254' },
-	{ name: 'SQL', years: 0, color: '#00608c' },
-	{ name: 'TypeScript', years: 0, color: '#2f74c0' },
-	{ name: 'Ruby', years: 1, color: '#e51f49' },
+	{ name: 'C', year: 2017, color: '#5c6bc0' },
+	{ name: 'Java', year: 2017, color: '#ec2025' },
+	{ name: 'C++', year: 2018, color: '#649ad2' },
+	{ name: 'JavaScript', year: 2018, color: '#f7e018' },
+	{ name: 'HTML5', year: 2018, color: '#e44d26' },
+	{ name: 'CSS3', year: 2018, color: '#379ad6' },
+	{ name: 'Python', year: 2019, color: '#008397' },
+	{ name: 'Shell Scripting', year: 2020, color: '#1d7254' },
+	{ name: 'Ruby', year: 2020, color: '#e51f49' },
+	{ name: 'SQL', year: 2021, color: '#00608c' },
+	{ name: 'TypeScript', year: 2021, color: '#2f74c0' },
 ];
 
 export const frameworks = [
-	{ name: 'ReactJS', years: 3, color: '#7ddfff' },
-	{ name: 'NodeJS', years: 3, color: '#689f63' },
-	{ name: 'MongoDB', years: 2, color: '#50aa4c' },
-	{ name: 'React Native', years: 2, color: '#7ddfff' },
-	{ name: 'Mocha', years: 1, color: '#8d6748' },
-	{ name: 'Jest', years: 1, color: '#99425b' },
-	{ name: 'Django', years: 1, color: '#1d7254' },
-	{ name: 'MySQL', years: 0, color: '#00608c' },
-	{ name: 'ElectronJS', years: 0, color: '#7ddfff' },
+	{ name: 'ReactJS', year: 2018, color: '#7ddfff' },
+	{ name: 'NodeJS', year: 2018, color: '#689f63' },
+	{ name: 'MongoDB', year: 2019, color: '#50aa4c' },
+	{ name: 'React Native', year: 2019, color: '#7ddfff' },
+	{ name: 'Mocha', year: 2020, color: '#8d6748' },
+	{ name: 'Jest', year: 2020, color: '#99425b' },
+	{ name: 'Django', year: 2020, color: '#1d7254' },
+	{ name: 'MySQL', year: 2021, color: '#00608c' },
+	{ name: 'ElectronJS', year: 2021, color: '#7ddfff' },
 ];
 
 export const technologies = [
-	{ name: 'Linux', years: 4, color: '#747c92' },
-	{ name: 'Git', years: 4, color: '#f05033' },
-	{ name: 'GitHub', years: 4, color: '#747c92' },
-	{ name: 'Windows', years: 4, color: '#00bdf6' },
-	{ name: 'JSON', years: 3, color: '#f7e018' },
-	{ name: 'Firebase', years: 1, color: '#f7a213' },
-	{ name: 'Docker', years: 0, color: '#2391e6' },
+	{ name: 'Linux', year: 2017, color: '#747c92' },
+	{ name: 'Git', year: 2017, color: '#f05033' },
+	{ name: 'GitHub', year: 2017, color: '#747c92' },
+	{ name: 'Windows', year: 2017, color: '#00bdf6' },
+	{ name: 'JSON', year: 2018, color: '#f7e018' },
+	{ name: 'Firebase', year: 2020, color: '#f7a213' },
+	{ name: 'Docker', year: 2021, color: '#2391e6' },
 ];
 
 export const websites = [
