@@ -4,7 +4,14 @@ import React from 'react';
 // Assets
 import { useInView } from 'react-intersection-observer';
 
-function Skill({ name, years, max, icon, color }) {
+function Skill({ name, year, icon, color }) {
+	const [currentYear, setCurrentYear] = React.useState(
+		new Date().getFullYear()
+	);
+
+	let years = currentYear - year;
+	let max = currentYear - 2017;
+
 	const calcPercent = () => {
 		let yearTemp = years <= 0 ? 0.6 : years;
 

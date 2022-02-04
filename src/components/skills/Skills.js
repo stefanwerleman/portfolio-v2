@@ -8,8 +8,6 @@ import Skill from '../skill/Skill';
 import { langauges, frameworks, technologies, icons } from '../utils/utils';
 
 function Skills() {
-	const totalYears = 4;
-
 	const languageSection = () => {
 		return (
 			<div className='SubSection' id='languages'>
@@ -19,8 +17,7 @@ function Skills() {
 						<Skill
 							key={lang.name}
 							name={lang.name}
-							years={lang.years}
-							max={totalYears}
+							year={lang.year}
 							icon={icons[lang.name.toLowerCase()]}
 							color={lang.color}
 						/>
@@ -39,8 +36,7 @@ function Skills() {
 						<Skill
 							key={frame.name}
 							name={frame.name}
-							years={frame.years}
-							max={totalYears}
+							year={frame.year}
 							icon={icons[frame.name.toLowerCase()]}
 							color={frame.color}
 						/>
@@ -59,8 +55,7 @@ function Skills() {
 						<Skill
 							key={tech.name}
 							name={tech.name}
-							years={tech.years}
-							max={totalYears}
+							year={tech.year}
 							icon={icons[tech.name.toLowerCase()]}
 							color={tech.color}
 						/>
