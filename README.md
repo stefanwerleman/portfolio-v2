@@ -36,3 +36,7 @@ This section includes developement and production notes for this application.
 Distributed under the MIT License. See `LICENSE` for more information.
 
 # Acknowledgements
+
+-   [TypeScript Best Practices](https://medium.com/@warkiringoda/typescript-best-practices-2021-a58aee199661)
+-   [React Best Practices](https://www.freecodecamp.org/news/best-practices-for-react/)
+    -   [React Folder Structure](https://www.robinwieruch.de/react-folder-structure/)
