@@ -18,6 +18,7 @@ A record of all release notes and changes made for each version of the portfolio
 
 -   3.0.0
     -   [ ] Migration from JavaScript to TypeScript.
+    -   [ ] Logger for the Application.
     -   [ ] Refactor caching system for images, education, skill, projects, and employment data.
         -   [ ] `config/` Directory containing config JSON files.
     -   [ ] Redesign UI components.
