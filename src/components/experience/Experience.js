@@ -16,18 +16,27 @@ function Experience() {
 				<div className='Company'>
 					<img src={Qorvo} alt='qorvo-logo' />
 					<div className='CompanyBody'>
-						<p className='CompanyName'>
-							Software Engineer Intern, EDA Automation
-						</p>
+						<p className='CompanyName'>Software Engineer</p>
 						<div className='CompanyInfo'>
-							<p>Qorvo</p>
-							<p>February 2022 - Present</p>
+							<p>Apopka, FL</p>
+							<p>May 2023 - Present</p>
 						</div>
 						{/* <p className='Description'>
-							Developing a job listing platform exclusively for
-							job seekers and employers within the energy
-							industry.
+							Built a ticketing platform for design engineers.
 						</p> */}
+					</div>
+				</div>
+				<div className='Company'>
+					<img src={Qorvo} alt='qorvo-logo' />
+					<div className='CompanyBody'>
+						<p className='CompanyName'>Software Engineer Intern</p>
+						<div className='CompanyInfo'>
+							<p>Apopka, FL</p>
+							<p>February 2022 - April 2023</p>
+						</div>
+						<p className='Description'>
+							Built a ticketing platform for design engineers.
+						</p>
 					</div>
 				</div>
 				<div className='Company'>
@@ -35,7 +44,7 @@ function Experience() {
 					<div className='CompanyBody'>
 						<p className='CompanyName'>Software Engineer Intern</p>
 						<div className='CompanyInfo'>
-							<p>Siemens</p>
+							<p>Remote</p>
 							<p>August 2021 - February</p>
 						</div>
 						<p className='Description'>

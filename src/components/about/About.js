@@ -22,14 +22,14 @@ function About() {
 						<p className='SectionBody'>
 							Hello, friend! My name is{' '}
 							<span>Stefan Werleman</span> and I am a software
-							engineer intern at <span>Qorvo</span> and a graduate
-							student at the University of Central Florida
-							majoring in Computer Science. I love to read, write,
-							and sleep code. I enjoy solving problems ranging
-							from simple puzzle problems to real-world problems
-							and love turning those solutions into usable
-							software to help others. So if you have project idea
-							or a problem, don't hesitate to contact me!
+							engineer at <span>Qorvo</span> with a master's
+							degree in Computer Science from the University of
+							Central Florida. I love to read, write, and sleep
+							code. I enjoy solving problems ranging from simple
+							puzzle problems to real-world problems and love
+							turning those solutions into usable software to help
+							others. So if you have project idea or a problem,
+							don't hesitate to contact me!
 						</p>
 					</div>
 					<HashLink to='/#contact' smooth>
